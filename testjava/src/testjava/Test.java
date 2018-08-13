@@ -1,7 +1,7 @@
 package testjava;
 
 public class Test {
-	public void function(int i) {
+	public static void function(int i) {
 		if(i>1) {
 			System.out.println("这是错误的");
 		}else {
@@ -11,5 +11,6 @@ public class Test {
 	public static void main(String[] args) {
 		System.out.println("hello word !!!");
 		System.out.println("第一次修改代码");
+		function(10);
 	}
 }
